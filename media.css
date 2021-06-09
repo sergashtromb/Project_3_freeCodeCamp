@@ -1,0 +1,94 @@
+@media (max-width: 1350px) {
+    footer {
+        width: 1000px;
+    } 
+
+    #price {
+        width: 1000px;
+    }
+} 
+
+@media (max-width: 1100px) {
+    .price_page {
+        width: 280px;
+    } 
+    #price {
+        width: 900px;
+    } 
+
+    footer {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 930px) {
+    #price { 
+        width: 300px;
+        flex-direction: column; 
+        text-align: center;
+    } 
+    .price_page {
+        width: 310px;
+    }
+    .oneList {
+        width: 600px;
+    } 
+    .textList {
+        width: 500px;
+    } 
+
+    header {
+        height: 100px;
+    }
+    header nav { 
+        display: flex;
+        flex-direction: column;
+    } 
+
+    header nav a {
+        padding: 5px 60px;
+    } 
+    main {
+        padding-top: 100px;
+    }
+} 
+
+@media (max-width: 600px) {
+    header {
+        height: 150px; 
+        flex-direction: column; 
+        justify-content: center;
+    } 
+    main {
+        padding-top: 150px;
+    } 
+
+    .oneList {
+        width: 320px; 
+        flex-direction: column; 
+        justify-content: center; 
+        margin: auto;   
+        padding: 10px 0px;
+    } 
+
+    .textList {
+        width: 300px;
+        text-align: center; 
+        margin: auto;
+    } 
+    .ball {
+        margin: auto;
+    }
+} 
+
+@media (max-width: 400px) {
+    header img {
+        height: 30px; 
+        width: auto; 
+        margin: auto;
+    } 
+
+    .price_page {
+        margin-left: -8px;
+    }
+}

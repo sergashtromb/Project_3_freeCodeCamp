@@ -1,0 +1,148 @@
+body {
+    margin: 0; 
+    background-color: #eee; 
+    font-family: 'Lato', sans-serif;
+} 
+
+header {
+    position: fixed; 
+    height: 70px;  
+    width: 100%;
+    background-color: rgb(194, 193, 193);  
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}  
+
+
+
+header img {
+    width: auto; 
+    height: 35px; 
+    margin-left: 20px;
+} 
+
+header nav a {
+    padding: 0px 60px; 
+    text-decoration: none; 
+    color: black;
+}
+main {
+    padding-top: 70px;
+} 
+
+#header_main {
+    text-align: center;
+}
+#header_main input {
+    width: 300px; 
+    height: 22px;
+    border-radius: 2px; 
+    margin-bottom: 15px; 
+    border: 0 solid #fff;
+} 
+
+#header_main button {
+    width: 150px; 
+    height: 35px; 
+    background-color: rgb(235, 213, 11); 
+    border: 0 solid #fff; 
+    font-weight: bolder; 
+    border-radius: 2px;
+} 
+
+#header_main button:hover {
+    background-color: rgb(235, 183, 11); 
+    transition: 0.5s; 
+    cursor: pointer;
+} 
+
+
+#list {
+    margin-top: 70px;
+}
+
+.ball {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: rgb(235, 213, 11); 
+    margin-top: 20px;
+} 
+
+.oneList {
+    display: flex; 
+    width: 900px; 
+    margin: auto; 
+    flex-direction: row; 
+    justify-content: space-between;  
+} 
+
+.textList {
+    width: 800px;
+} 
+
+#price {
+    width: 1200px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: auto;
+} 
+
+.price_page { 
+    width: 320px;  
+    height: 320px;
+    text-align: center; 
+    border: 2px solid black; 
+    margin-bottom: 40px;
+} 
+
+.price_page .price_content {
+    background-color: rgb(194, 193, 193); 
+    margin: 0; 
+    padding: 10px 0px;
+} 
+
+.price_number {
+    font-size: 25px; 
+    font-weight: 600;     
+} 
+
+.price_page button {
+    padding: 0 20px; 
+    height: 40px; 
+    margin: 15px 0px; 
+    font-weight: 400; 
+    background-color: #f1c40f; 
+    border: 0 solid white;
+} 
+
+.price_page button:hover {
+    background-color: rgb(235, 183, 11); 
+    transition: 0.5s; 
+    cursor: pointer;
+} 
+
+footer {
+    width: 1300px; 
+    margin: auto; 
+    background-color: rgb(194, 193, 193); 
+    padding: 10px 0px 10px 0px; 
+    text-align: right; 
+    border-radius: 2px;
+} 
+
+footer a {
+    padding: 0px 10px 0px 10px; 
+    text-decoration: none; 
+    color: black; 
+} 
+
+footer p {
+    color: #444;
+} 
+
+footer div {
+    margin-right: 50px;
+}
